@@ -1,0 +1,38 @@
+@import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
+
+
+$brand-color: #45f892;
+$primary-color: #efefef;
+$gray-dark: #f9f9f9;
+$gray: #a4a4a4;
+$gray-light: #f9f9f9;
+
+$base-spacing: 1rem;
+$rem-base: 16px;
+$base-font-size: 100% !default;
+
+$grid-columns: 12;
+
+// Breakpoints
+$small: 0;
+$medium: 640px;
+$large: 1200px;
+
+
+// Typography
+$font-family-headings: '';
+$font-family-paragraph: '';
+$font-weight-bold: 300;
+
+/**
+  * NEAT
+  *
+  **/
+
+// Overrides Neat's default
+$max-width: em(1024);
+
+// Breakpoints
+$mobile: new-breakpoint(max-width 500px 4);
+
+$visual-grid-color: lighten(#FFF0E8, 3%);

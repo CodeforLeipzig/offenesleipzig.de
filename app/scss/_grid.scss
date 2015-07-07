@@ -1,0 +1,19 @@
+.max-container {
+  background-color: $primary-color;
+  @include outer-container(100%);
+  padding: 0 $base-spacing;
+}
+.container {
+  @extend .max-container;
+  @media (min-width: $large) {
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+.container-fluid {
+  @extend .max-container;
+}
+
+.row{
+  @include row();
+}

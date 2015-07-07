@@ -1,0 +1,26 @@
+{
+  "name": "offenesleipzig.de",
+  "version": "0.1.0",
+  "homepage": "https://github.com/CodeforLeipzig/offenesleipzig.de",
+  "authors": [
+    "paesku <paesku@gmail.com>"
+  ],
+  "description": "Landingpage from the open data group in Leipzig",
+  "keywords": [
+    "bourbon",
+    "neat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
+  }
+}

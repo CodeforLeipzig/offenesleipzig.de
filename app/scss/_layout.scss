@@ -1,0 +1,16 @@
+
+.section-quote {
+  @include pad(2rem 0);
+  @include outer-container;
+  aside {
+     @include pad();
+    background-color: $brand-color;
+    @include span-columns(3);
+  }
+  article {
+   @include pad();
+   @include span-columns(9);
+   border: 1px solid  $brand-color;
+  }
+
+}
