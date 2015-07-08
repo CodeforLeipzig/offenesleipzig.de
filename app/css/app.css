@@ -8,6 +8,7 @@
  *
  * @return A list of converted values.
  */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500italic,700);
 html {
   box-sizing: border-box; }
 
@@ -25,7 +26,7 @@ html {
   box-sizing: inherit; }
 
 .max-container, .container, .container-fluid {
-  background-color: #efefef;
+  background-color: #7b7b7b;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -46,6 +47,11 @@ html {
     clear: both;
     content: "";
     display: table; }
+
+.flex-intro {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column-reverse; }
 
 .section-quote {
   padding: 2rem 0;
@@ -75,12 +81,62 @@ html {
     .section-quote article:last-child {
       margin-right: 0; }
 
+.bg-brand {
+  background-color: #45f892;
+  color: #fff; }
+  .bg-brand h1 {
+    font-weight: 300;
+    color: #fff; }
+
+.bg-primary {
+  background-color: #7b7b7b;
+  color: #fff; }
+
+.section-large {
+  padding: 4rem; }
+
+.text-center {
+  text-align: center; }
+
+.list-unstyled li {
+  list-style: none; }
+
+.center-horizontal {
+  text-align: center; }
+
 html, body {
   margin: 0;
   font-size: 16px; }
 
 h1, .h1 {
   line-height: 1;
-  font-weight: 300; }
+  font-weight: 700;
+  letter-spacing: 0.05em; }
+
+p, .p {
+  line-height: 1;
+  font-weight: 400; }
+
+a, p, h1, h2 {
+  font-family: "Roboto"; }
+
+a {
+  text-decoration: none;
+  border-bottom: 2px solid #45f892;
+  padding-bottom: 1px; }
+
+p, a, h1, h2 {
+  color: #3B3B3B; }
+
+button, .button {
+  padding: 1rem 2rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  font-weight: 700; }
+
+.button-primary {
+  border-color: #45f892;
+  color: #3B3B3B; }
 
 /*# sourceMappingURL=app.css.map */

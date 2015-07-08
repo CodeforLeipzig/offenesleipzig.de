@@ -1,11 +1,12 @@
 @import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500italic,700);
 
 $brand-color: #45f892;
-$primary-color: #efefef;
-$gray-dark: #f9f9f9;
+$primary-color: #7b7b7b;
+$gray-dark: #3B3B3B;
 $gray: #a4a4a4;
-$gray-light: #f9f9f9;
+$gray-light: #efefef;
 
 $base-spacing: 1rem;
 $rem-base: 16px;
@@ -20,9 +21,12 @@ $large: 1200px;
 
 
 // Typography
-$font-family-headings: '';
-$font-family-paragraph: '';
-$font-weight-bold: 300;
+$font-family-headings: 'Roboto';
+$font-family-paragraph: $font-family-headings;
+$font-weight-light: 400;
+$font-weight-bold: 700;
+$font-color: $gray-dark;
+
 
 /**
   * NEAT
@@ -36,3 +40,6 @@ $max-width: em(1024);
 $mobile: new-breakpoint(max-width 500px 4);
 
 $visual-grid-color: lighten(#FFF0E8, 3%);
+
+
+ $radius-small: 2px;

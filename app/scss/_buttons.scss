@@ -1,0 +1,13 @@
+button, .button{
+  padding: $base-spacing $base-spacing *2;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: $radius-small;
+  font-weight: $font-weight-bold;
+}
+
+
+.button-primary{
+  border-color: $brand-color;
+  color: $gray-dark;
+}
